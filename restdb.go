@@ -40,7 +40,7 @@ func (p *User) ToJSON(w io.Writer) error {
 // We are using localhost as hostname because both
 // the utility and PostgreSQL run on the same machine
 var (
-	Hostname = "localhost"
+	Hostname = "10.177.21.124"
 	Port     = 5432
 	Username = "pi"
 	Password = "123456"
