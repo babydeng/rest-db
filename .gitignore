@@ -19,3 +19,5 @@
 
 # For not including PostgreSQL data
 postgres/*
+
+.idea
