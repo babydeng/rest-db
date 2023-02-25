@@ -42,8 +42,8 @@ func (p *User) ToJSON(w io.Writer) error {
 var (
 	Hostname = "localhost"
 	Port     = 5432
-	Username = "mtsouk"
-	Password = "pass"
+	Username = "pi"
+	Password = "123456"
 	Database = "restapi"
 )
 
